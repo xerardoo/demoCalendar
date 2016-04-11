@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="libs/fullcalendar/fullcalendar.min.css">
+    <style>
+
+        body {
+            margin: 40px 10px;
+            padding: 0;
+            font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 14px;
+        }
+
+        #calendar {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#calendar">Calendar</a></li>
+</ul>
+
+<div id="views"></div>
+
+
+<script src="libs/fullcalendar/lib/jquery.min.js"></script>
+<script src="libs/backbone.marionette/underscore.js"></script>
+<script src="libs/backbone.marionette/backbone.js"></script>
+<script src="libs/backbone.marionette/backbone.radio.js"></script>
+<script src="libs/backbone.marionette/backbone.marionette.js"></script>
+<script src="libs/fullcalendar/lib/moment.min.js"></script>
+<script src="libs/fullcalendar/fullcalendar.js"></script>
+
+
+<script src="js/utils.js"></script>
+
+
+<script src="views/calendar.js"></script>
+<script src="views/home.js"></script>
+
+
+<script src="js/router.js"></script>
+</body>
+</html>
